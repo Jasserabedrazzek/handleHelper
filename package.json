@@ -1,0 +1,36 @@
+{
+  "name": "@jasserabedrazzek/handlehelper",
+  "version": "1.0.2",
+  "description": "A lightweight TypeScript helper library for Express.js providing async error handling and standardized API responses.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "middleware",
+    "api-response",
+    "async-handler",
+    "nodejs"
+  ],
+  "author": "Jasser Abde Razzek",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.0.5"
+  },
+  "peerDependencies": {
+    "express": "^5.0.5"
+  }
+}
